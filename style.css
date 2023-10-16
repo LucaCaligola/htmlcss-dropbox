@@ -82,6 +82,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* flex-wrap: wrap; */
  }
 
 
@@ -110,8 +111,7 @@ header {
  }
 
  .jumbo-flex-container {
-    display: flex;
-   
+    display: flex; 
  }
 
  .jumbo-flex-container img {
@@ -125,13 +125,12 @@ header {
 
  #freccia {
     font-size: 36px;
-
  }
 
 
  main {
   
-    height: 3500px;
+    height: 4500px;
     width: 900px;
     margin: auto;
     padding-top: 120px;
@@ -232,8 +231,8 @@ header {
     background-color: white;
     border: 1px solid black;
     margin-top: 40px;
- 
 }
+
 
 
  .logos {
@@ -250,6 +249,24 @@ header {
 
  .partner {
     margin-bottom: 120px;
+ }
+
+ .column-no-border {
+    width: 280px;
+    height: 400px;
+    margin: 50px 0px;
+ }
+
+ .column-no-border img {
+    width: 280px;
+ }
+
+ .flex-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
  }
 
 
