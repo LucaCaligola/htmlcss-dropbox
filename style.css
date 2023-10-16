@@ -4,3 +4,53 @@
     padding: 0;
     box-sizing: border-box;
  }
+
+ body {
+    font-family: 'Open Sans', sans-serif;
+ }
+
+header {
+   
+    height: 80px;
+    min-width: 1200px;
+    
+ }
+
+ .jumbo {
+    background-color: #B4D0E7;
+    height: 550px;
+ }
+
+
+ main {
+    background-color: rgb(19, 66, 107);
+    height: 1500px;
+    width: 900px;
+    margin: auto;
+ }
+
+ .logos {
+    height: 400px;
+    background-color: red;
+ }
+
+
+ .business {
+    background-color: #B4D0E7;
+    height: 200px;
+ }
+
+ .logos {
+    height: 400px;
+
+ }
+
+ .faq {
+    height: 450px;
+
+ }
+
+ footer {
+    background-color: black;
+    height: 500px;
+ }
