@@ -53,9 +53,10 @@ header {
  
  .big-padding {
     /* padding: 15px 45px; */
-    margin: 30px 0px 20px 0px;
-    height: 55px;
-    width: 240px;    
+    margin: 10px 0px 10px 0px;
+    height: 45px;
+    width: 240px;   
+    font-size: 16px; 
  }
 
  .center-button {
@@ -80,12 +81,13 @@ header {
  .flex-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
  }
 
 
  .jumbo {
     background-color: #B4D0E7;
-    height: 560px;
+    height: 580px;
  }
 
  .jumbo-container {
@@ -98,6 +100,10 @@ header {
  h1 {
     font-size: 54px;
     padding: 40px 0px 30px 0px;
+ }
+
+ h2 {
+    font-size: 36px;
  }
  h4 {
     margin-bottom: 20px;
@@ -125,7 +131,7 @@ header {
 
  main {
   
-    height: 1500px;
+    height: 3500px;
     width: 900px;
     margin: auto;
     padding-top: 120px;
@@ -179,17 +185,17 @@ header {
     margin-bottom: 20px;
 }
 
-.check-flex {
+.check {
     display: flex;
     align-items:first baseline;
 }
 
-.check-flex p {
+.check p {
     padding-left: 5px;
     padding-bottom: 20px;
 }
 
-.check-flex i {
+.check i {
     color:#0C63FF
 }
 
@@ -206,13 +212,44 @@ header {
     border: 1px solid lightgrey;
     border-top: none;
     padding: 20px 15px 0px 15px;
+    height: 230px;
+    margin-bottom: 100px;
 }
 
+.row-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-button {
+    padding-top: 40px;
+}
+
+.white-button {
+    box-shadow: none;
+    border: none;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 40px;
+ 
+}
 
 
  .logos {
     height: 400px;
     background-color: red;
+ }
+
+ .partner img {
+
+    width: 560px;
+    margin: 0px 45px 0px 0px;
+ }
+
+
+ .partner {
+    margin-bottom: 120px;
  }
 
 
