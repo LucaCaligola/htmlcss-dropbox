@@ -65,7 +65,7 @@ header {
 
  }
 
- hr {
+ .horizontal {
     color: #DEDEE0;
     size: 1px;
     width: 60px;
@@ -399,12 +399,34 @@ header {
 
 
 .faq {
-    height: 450px;
-
+    height: 430px;
 }
 
+.domande {
+    width: 900px;
+    margin: auto;
+    padding: 60px 0px 30px 0px;
+}
+
+
+.domande h2,hr{
+    margin-bottom: 30px;
+}
+
+
+.faq-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+}
+
+.faq-flex > i {
+    font-size: 10px;
+}
 footer {
     background-color: black;
     height: 500px;
+    
 }
+
 
