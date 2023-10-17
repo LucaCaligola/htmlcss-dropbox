@@ -104,7 +104,7 @@ header {
  }
 
  h2 {
-    font-size: 36px;
+    font-size: 30px;
  }
  h4 {
     margin-bottom: 20px;
@@ -278,11 +278,6 @@ header {
  }
 
 
- .business {
-    background-color: #B4D0E7;
-    height: 200px;
- }
-
  .logos {
     height: 400px;
     width: 100%;
@@ -292,15 +287,6 @@ header {
 
  }
 
- .faq {
-    height: 450px;
-
- }
-
- footer {
-    background-color: black;
-    height: 500px;
- }
  
  .box {
     width: calc(100% / 3);
@@ -385,4 +371,40 @@ header {
     color: grey;
  }
  
+
+ .business {
+    background-color: #B4D0E7;
+    height: 200px; 
+    
+ }
+
+.business-center {
+    width: 900px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.business-center div {
+    width: 450px;
+}
+
+
+.no-border-button {
+    border: none;
+}
+
+
+
+.faq {
+    height: 450px;
+
+}
+
+footer {
+    background-color: black;
+    height: 500px;
+}
 
