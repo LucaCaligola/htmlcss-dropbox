@@ -130,7 +130,7 @@ header {
 
  main {
   
-    height: 4500px;
+    height: 3700px;
     width: 900px;
     margin: auto;
     padding-top: 120px;
@@ -237,7 +237,7 @@ header {
 
  .logos {
     height: 400px;
-    background-color: red;
+   
  }
 
  .partner img {
@@ -269,6 +269,14 @@ header {
     margin-bottom: 150px;
  }
 
+ .pre-loghi h2 {
+    margin-bottom: 50px;
+ }
+
+ .pre-loghi {
+    margin-bottom: 80px;
+ }
+
 
  .business {
     background-color: #B4D0E7;
@@ -277,6 +285,10 @@ header {
 
  .logos {
     height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
 
  }
 
@@ -290,3 +302,79 @@ header {
     height: 500px;
  }
  
+ .box {
+    width: calc(100% / 3);
+    height: 400px;
+ }
+
+ .left {
+    background-color: aquamarine;
+ }
+
+ .logo-box {
+    height: 50%;
+    width: 50%; 
+ }
+
+ .green {
+    
+    background-color:#A2D39B;
+    border: 10px solid #D1E9CD;
+ }
+
+ .blue {
+    background-color: #0093CE;
+    
+ }
+
+ .box img {
+    width: 120px;
+    filter: invert(100%); 
+ }
+
+ .bordeaux {
+    background-color:#61082B ;
+ }
+
+ .red {
+    background-color: #FF1C1D;
+ }
+
+ .azure {
+    background-color:#B4D0E7 ;
+ }
+ 
+ .logo-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .logo-wrap {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .box-center {
+    width: calc(100% / 3);
+    height: 400px;
+    background-color:#F5F5F5 ;
+ }
+
+ .box-center img {
+    width: 50%;
+    margin: 25px 0px 10px 25px;
+ }
+
+ .box-center hr {
+    
+    margin: 25px;
+ }
+
+ .box-center p {
+    
+    margin: 25px;
+    color: grey;
+ }
+ 
+
