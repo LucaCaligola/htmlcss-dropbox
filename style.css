@@ -343,6 +343,14 @@ header {
  .azure {
     background-color:#B4D0E7 ;
  }
+
+ .blue-night {
+    background-color:#0D2480 ;
+ }
+
+ .yellow {
+    background-color: #FFD82F ;
+ }
  
  .logo-flex {
     display: flex;
