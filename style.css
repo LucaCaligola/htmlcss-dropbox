@@ -17,7 +17,6 @@ header {
 
 
  /* <!-- DROPDOWN MENU  --> */
-
  .dropdown {
    position: relative;
    display: inline-block;
@@ -38,6 +37,7 @@ header {
    display: flex;
    flex-wrap: wrap;
  }
+   /* DROPDOWN MENU FINITO  */
 
 
 
@@ -53,15 +53,6 @@ header {
     padding: 7px;
  } 
 
- /* .header-left-column div:hover {
-   border-bottom: solid #0D2480 3px;
- }
-
- .header-right-column div:hover {
-   border-bottom: solid #0D2480 3px;
-   width: 10px;
-  
- } */
 
  .header-right-column {
     height: 100%;
@@ -482,13 +473,50 @@ header {
 
 .faq-flex {
     display: flex;
-    justify-content: space-between;
     width: 850px;
+    justify-content: space-between;
+    align-items: baseline;
+    
 }
 
 .faq-flex > i {
-    font-size: 10px;
-}
+    font-size: 10px;  
+ }
+
+ .faq-flex button {
+   background-color: transparent;
+    border: none;
+ }
+
+ /* INIZIO ACCORDION  */
+ .accordion {
+   background-color: #eee;
+   color: #444;
+   cursor: pointer;
+   /* padding: 18px;
+   width: 10%; */
+   text-align: center;
+   border: none;
+   outline: none;
+   transition: 0.4s;
+   font-size: 10px;  
+ }
+
+ .active, .accordion:hover {
+   /* background-color:#ccc; */
+
+ }
+
+ .panel {
+   padding: 0 18px;
+   background-color: white;
+   display: none;
+   overflow: hidden;
+ }
+/* FINE ACCORDION  */
+
+
+
 footer {
     background-color: black;
     height: 550px;
